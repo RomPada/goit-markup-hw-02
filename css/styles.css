@@ -1,0 +1,85 @@
+/* #region Base */
+body {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+a {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 1.334;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: currentColor;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+button {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  color: #ffffff;
+  background-color: #2E2F42;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+.visually-hidden,
+.read-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+/* #endregion */
