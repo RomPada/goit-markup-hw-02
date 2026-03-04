@@ -9,7 +9,6 @@ body {
   background-color: #ffffff;
 }
 
-
 a {
   font-family: Roboto;
   font-weight: regular;
@@ -34,12 +33,21 @@ button {
 }
 address {
   font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+.address:focus {
+  color: #404bbf;
+}
+
+/*
 img {
   display: block;
 }
 
-/*
+
 .visually-hidden,
 .read-only {
   position: absolute;
@@ -65,7 +73,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
 
 .studio {
@@ -97,8 +104,7 @@ img {
   color: #404bbf;
 }
 
-
-h1 {
+.hero-h1 {
   font-family: Roboto;
   font-weight: bold;
   font-size: 56px;
@@ -106,6 +112,17 @@ h1 {
   line-height: 1.07;
   color: #ffffff;
   background-color: #2e2f42;
+  text-align: center444;
+}
+
+.hero-botton {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 h2 {
