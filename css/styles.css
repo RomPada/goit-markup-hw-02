@@ -31,37 +31,16 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
-address {
-  font-style: normal;
+
+.address-class {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.address:focus {
+.address-class:focus {
   color: #404bbf;
 }
-
-/*
-img {
-  display: block;
-}
-
-
-.visually-hidden,
-.read-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
-}
-*/
 
 /* #endregion */
 
@@ -104,14 +83,18 @@ img {
   color: #404bbf;
 }
 
-.hero-h1 {
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-h {
   font-family: Roboto;
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
   color: #ffffff;
-  background-color: #2e2f42;
+
   text-align: center444;
 }
 
