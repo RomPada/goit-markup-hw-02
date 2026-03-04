@@ -1,7 +1,6 @@
 /* #region Base */
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: regular;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -10,8 +9,7 @@ body {
 }
 
 a {
-  font-family: Roboto;
-  font-weight: regular;
+  font-family: "Roboto";
   font-size: 12px;
   line-height: 1.334;
   letter-spacing: 0.04em;
@@ -21,15 +19,6 @@ a {
 ul,
 ol {
   list-style-type: none;
-}
-button {
-  font-family: Roboto;
-  font-weight: medium;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  font-family: inherit;
-  cursor: pointer;
 }
 
 .address-class {
@@ -72,17 +61,6 @@ button {
   color: #404bbf;
 }
 
-.address {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.address:hover,
-.address:focus {
-  color: #404bbf;
-}
-
 .hero-section {
   background-color: #2e2f42;
 }
@@ -95,7 +73,7 @@ button {
   line-height: 1.07;
   color: #ffffff;
 
-  text-align: center444;
+  text-align: center;
 }
 
 .hero-botton {
@@ -108,16 +86,4 @@ button {
   letter-spacing: 0.04em;
 }
 
-h2 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 0.02em;
-}
 
-h3 {
-  font-family: Roboto;
-  font-weight: medium;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-}
